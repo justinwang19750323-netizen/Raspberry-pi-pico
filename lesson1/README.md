@@ -3,7 +3,7 @@
 ### 這是次次標題
 #### 這是次次次標題
 每次上課連結
-下面是GIT初始化設定
+下面是GIT初始化設定ok 
 
 ‵‵‵bash
 git config --global user.name "wang"
