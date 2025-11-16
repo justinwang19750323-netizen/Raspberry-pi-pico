@@ -6,6 +6,12 @@ resolution-markers = [
     "python_full_version < '3.11'",
 ]
 
+[manifest]
+members = [
+    "lesson4-1-ipnyb",
+    "pi-pico",
+]
+
 [[package]]
 name = "appnope"
 version = "0.1.4"
@@ -310,6 +316,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/02/49/9d1284d0dc65e2c75
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e7/e7/80988e32bf6f73919a113473a604f5a8f09094de312b9d52b79c2df7612b/jupyter_core-5.9.1-py3-none-any.whl", hash = "sha256:ebf87fdc6073d142e114c72c9e29a9d7ca03fad818c5d300ce2adc1fb0743407", size = 29032, upload-time = "2025-10-16T19:19:16.783Z" },
 ]
+
+[[package]]
+name = "lesson4-1-ipnyb"
+version = "0.1.0"
+source = { virtual = "lesson3/lesson4_1.ipnyb" }
 
 [[package]]
 name = "matplotlib-inline"
