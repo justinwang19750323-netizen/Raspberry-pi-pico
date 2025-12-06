@@ -1,0 +1,18 @@
+[Unit]
+Description=MQTT 監控應用程式
+After=network.target mosquitto.service
+Wants=mosquitto.service
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/Documents/GitHub/Raspberry-pi-pico/lesson6
+ExecStart=/home/pi/Documents/GitHub/Raspberry-pi-pico/lesson6/start.sh
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+
